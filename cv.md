@@ -25,3 +25,38 @@ I decided to try a new sphere 4 months ago. I have already finished 2 Udemy cour
 - Figma
 
 ---
+
+### Code Examples:
+
+```
+function App() {
+  const [images, setImages] = useState([]);
+  const handleSubmit = async (term) => {
+    const result = await searchImages(term);
+    setImages(result);
+  };
+  return (
+    <div>
+      <SearchBar onSubmit={handleSubmit} />
+      <ImageList images={images} />
+    </div>
+  );
+}
+```
+
+---
+
+### Education and Courses:
+
+- RS Schools Course "JavaScript/Front-end. Stage 0"
+- Udemy Course "Modern React with Redux"
+- Udemy Course "The Web Developer Bootcamp" (HTML, CSS, JavaScript)
+- Bachelor, English Faculty, Minsk State Linguastic University
+
+---
+
+### Languages:
+
+- English - Upper-intermediate
+- Russian - Native
+- Polish - Basic
